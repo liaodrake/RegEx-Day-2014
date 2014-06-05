@@ -47,7 +47,7 @@ app.controller(
 			// Ignore any partial submits (based on the list of English words we have).
 			if ( ! dictionaryService.isWord( word ) ) {
 
-				return( alert( "Sorry, I don't understand that world." ) );
+				return( alert( "Sorry, I don't understand that word." ) );
 
 			}
 
